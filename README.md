@@ -7,7 +7,7 @@
 ```json
 {
   "dependencies": {
-    "com.actionfit.checkmissingscripts": "https://github.com/ActionFit-Editor/Check_Missing_Scripts.git#1.0.0"
+    "com.actionfit.checkmissingscripts": "https://github.com/ActionFit-Editor/Check_Missing_Scripts.git#1.0.1"
   }
 }
 ```

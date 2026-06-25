@@ -9,7 +9,7 @@ public static class MissingScriptTools
 {
     #region Scene
 
-    [MenuItem("Tools/Missing Scripts/Find In Open Scenes")]
+    [MenuItem("Tools/ActionFit/Missing Scripts/Find In Open Scenes", false, 20)]
     public static void FindInOpenScenes()
     {
         var found = new List<GameObject>();
@@ -33,7 +33,7 @@ public static class MissingScriptTools
         Debug.Log($"[MissingScriptTools] Found {found.Count} objects with missing scripts (selected in Hierarchy)");
     }
 
-    [MenuItem("Tools/Missing Scripts/Remove In Open Scenes")]
+    [MenuItem("Tools/ActionFit/Missing Scripts/Remove In Open Scenes", false, 21)]
     public static void RemoveInOpenScenes()
     {
         if (!EditorUtility.DisplayDialog("Remove Missing Scripts",
@@ -55,7 +55,7 @@ public static class MissingScriptTools
 
     #region Prefab
 
-    [MenuItem("Tools/Missing Scripts/Find In All Prefabs")]
+    [MenuItem("Tools/ActionFit/Missing Scripts/Find In All Prefabs", false, 40)]
     public static void FindInAllPrefabs()
     {
         var guids = AssetDatabase.FindAssets("t:Prefab");
@@ -103,7 +103,7 @@ public static class MissingScriptTools
         Debug.Log($"[MissingScriptTools] Found {totalMissing} missing components in {found.Count} prefabs (selected in Project)");
     }
 
-    [MenuItem("Tools/Missing Scripts/Remove In All Prefabs")]
+    [MenuItem("Tools/ActionFit/Missing Scripts/Remove In All Prefabs", false, 41)]
     public static void RemoveInAllPrefabs()
     {
         if (!EditorUtility.DisplayDialog("Remove Missing Scripts in Prefabs",
