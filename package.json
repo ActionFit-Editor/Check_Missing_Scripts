@@ -1,6 +1,6 @@
 {
   "name": "com.actionfit.checkmissingscripts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Check Missing Scripts",
   "description": "열린 씬과 모든 프리팹에서 Missing(MonoBehaviour) 스크립트를 찾아 보고하고 일괄 제거하는 에디터 메뉴 도구.",
   "unity": "6000.2",
